@@ -2,7 +2,7 @@ from flask import Flask, render_template
  
 app = Flask(__name__)
  
-@app.route('/')
+@app.route('/addcss')
 def index():
     return 'Hello world'
 
@@ -14,7 +14,7 @@ def whereami():
 def addMoreFunctions():
     return 'Let the coding Begin!'
 
-@app.route('/addcss')
+@app.route('/')
 def addcss():
     return render_template('myIndex.html')
  
