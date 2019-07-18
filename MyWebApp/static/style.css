@@ -1,0 +1,54 @@
+h1{
+	color: black;	
+	padding-top:5px;
+	margin-left:15px;
+	width:350px;
+	border-radius:15px;
+	text-align:center;
+}
+
+#myForm{
+    color: white;
+	background:black;
+	padding:15px;
+	border-radius:15px;
+	padding-left:45px;
+	padding-top:25px;
+	font-style:sans-serif;
+	font-size:25px;
+	width:350px;
+	Opacity:20px;
+}
+
+input{
+	height:35px;
+	width:300px;
+	border-radius:8px;
+	font-size:20px;
+	margin-top:5px;
+	padding-left:5px;
+}
+
+#submit{
+	background:orange;
+	width:309px;
+	height:43px;
+	color:white;
+	font-size:20px;
+}
+#submit:hover{
+	background:gray;
+	width:309px;
+	height:43px;
+	color:white;
+}
+
+a{
+	color:orange;
+	text-decoration:none;
+}
+
+a:hover{
+	color:green;
+	text-decoration:none;
+}
